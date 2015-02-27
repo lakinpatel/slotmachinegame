@@ -1,0 +1,5 @@
+E:\study\projects\397\COMP2068-SlotMachineDemo-master\COMP2068-SlotMachineDemo\bin\COMP2068-CreateJSBoilerPlate.dll.config
+E:\study\projects\397\COMP2068-SlotMachineDemo-master\COMP2068-SlotMachineDemo\bin\COMP2068-CreateJSBoilerPlate.dll
+E:\study\projects\397\COMP2068-SlotMachineDemo-master\COMP2068-SlotMachineDemo\bin\COMP2068-CreateJSBoilerPlate.pdb
+E:\study\projects\397\COMP2068-SlotMachineDemo-master\COMP2068-SlotMachineDemo\obj\Debug\COMP2068-CreateJSBoilerPlate.dll
+E:\study\projects\397\COMP2068-SlotMachineDemo-master\COMP2068-SlotMachineDemo\obj\Debug\COMP2068-CreateJSBoilerPlate.pdb
