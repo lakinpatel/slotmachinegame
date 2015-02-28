@@ -88,7 +88,7 @@ function createUI() {
     game.addChild(background);
 
     //spin button
-    spinButton = new createjs.Bitmap("assets/images/SpinButton.png");
+    spinButton = new createjs.Bitmap("assets/images/SpinButton1.png");
     spinButton.x = 225;
     spinButton.y = 306;
     game.addChild(spinButton);
@@ -180,19 +180,6 @@ function ResetButton() {
     createUI();
 }
 function PowerButton() {
-    spins = 0;
-    win = 0;
-    loss = 0;
-    jackpotWins = 0;
-    jackpot = 10000;
-    playerBet = 1;
-    winnings = 0;
-    credits = 1000;
-    spinButton.addEventListener("click", SpinButton);
-
-    winningsText.text = winnings.toString();
-    betText.text = playerBet.toString();
-    creditText.text = credits.toString();
     createUI();
 }
 function BetOneButton() {
