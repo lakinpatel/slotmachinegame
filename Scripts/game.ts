@@ -1,4 +1,4 @@
-﻿//File Name: game.ts
+//File Name: game.ts
 //Author: Lakinkumar Patel
 //Slot machine code using createjs Javascript File
 
@@ -247,13 +247,13 @@ function SpinButton() {
     //checks payout and displays stats
     function payoutCheck(spotOne, spotTwo, spotThree) {
         var allSlots = [spotOne, spotTwo, spotThree];
-        var sonic = 0;
-        var tails = 0;
-        var yellowGuy = 0;
-        var robotnic = 0;
-        var bars = 0;
-        var knuckles = 0;
-        var rings = 0;
+        var sword = 0;
+        var thullu = 0;
+        var spear = 0;
+        var hammer = 0;
+        var bomb = 0;
+        var gun = 0;
+        var medieval = 0;
         var blanks = 0;
 
         for (var i = 0; i < reels.length; i++) {
@@ -261,37 +261,37 @@ function SpinButton() {
                 switch (reels[i]) {
                     case reels[0]:
                         if (reels[0] == allSlots[r]) {
-                            sonic++;
+                            sword++;
                         }
                         break;
                     case reels[1]:
                         if (reels[1] == allSlots[r]) {
-                            tails++;
+                            spear++;
                         }
                         break;
                     case reels[2]:
                         if (reels[2] == allSlots[r]) {
-                            yellowGuy++;
+                            thullu++;
                         }
                         break;
                     case reels[3]:
                         if (reels[3] == allSlots[r]) {
-                            robotnic++;
+                            hammer++;
                         }
                         break;
                     case reels[4]:
                         if (reels[4] == allSlots[r]) {
-                            bars++;
+                            bomb++;
                         }
                         break;
                     case reels[5]:
                         if (reels[5] == allSlots[r]) {
-                            knuckles++;
+                            gun++;
                         }
                         break;
                     case reels[6]:
                         if (reels[6] == allSlots[r]) {
-                            rings++;
+                            medieval++;
                         }
                         break;
                     case reels[7]:
@@ -306,38 +306,38 @@ function SpinButton() {
 
         //winnings calculations
         if (blanks == 0) {
-            if (sonic == 3) {
+            if (sword == 3) {
                 winnings = playerBet * 10;
                 credits += winnings;
-                console.log("Win on Sonic: " + winnings);
+                //console.log("Win on Sonic: " + winnings);
             }
-            else if (tails == 3) {
+            else if (spear == 3) {
                 winnings = playerBet * 20;
                 credits += winnings;
-                console.log("Win on Tails: " + winnings);
+                //console.log("Win on Tails: " + winnings);
             }
-            else if (yellowGuy == 3) {
+            else if (thullu == 3) {
                 winnings = playerBet * 30;
                 credits += winnings;
-                console.log("Win on yellowGuy: " + winnings);
+                //console.log("Win on yellowGuy: " + winnings);
             }
-            else if (robotnic == 3) {
+            else if (hammer == 3) {
                 winnings = playerBet * 40;
                 credits += winnings;
-                console.log("Win on robotnic: " + winnings);
+                //console.log("Win on robotnic: " + winnings);
             }
-            else if (bars == 3) {
+            else if (bomb == 3) {
                 winnings = playerBet * 50;
                 credits += winnings;
-                console.log("Win on bars: " + winnings);
+                //console.log("Win on bars: " + winnings);
             }
-            else if (knuckles == 3) {
+            else if (gun == 3) {
                 winnings = playerBet * 75;
                 credits += winnings;
-                console.log("Win on knuckles: " + winnings);
+                //console.log("Win on knuckles: " + winnings);
             }
             // JACKPOT AREA************************************
-            else if (rings == 3) {
+            else if (medieval == 3) {
                 winnings = playerBet * 100;
                 credits += winnings;
                 jackpotWins++;
@@ -345,37 +345,37 @@ function SpinButton() {
                 console.log("Win on rings: " + winnings);
             }
             //JACKPOT AREA*************************************
-            else if (sonic == 2) {
+            else if (sword == 2) {
                 winnings = playerBet * 2;
                 credits += winnings;
                 console.log("Win on Sonic: " + winnings);
             }
-            else if (tails == 2) {
+            else if (spear == 2) {
                 winnings = playerBet * 2;
                 credits += winnings;
                 console.log("Win on tails:" + winnings);
             }
-            else if (yellowGuy == 2) {
+            else if (thullu == 2) {
                 winnings = playerBet * 3;
                 credits += winnings;
                 console.log("Win on yellowguy: " + winnings);
             }
-            else if (robotnic == 2) {
+            else if (hammer == 2) {
                 winnings = playerBet * 4;
                 credits += winnings;
                 console.log("Win on robotnic: " + winnings);
             }
-            else if (bars == 2) {
+            else if (bomb == 2) {
                 winnings = playerBet * 5;
                 credits += winnings;
                 console.log("Win on bars: " + winnings);
             }
-            else if (knuckles == 2) {
+            else if (gun == 2) {
                 winnings = playerBet * 10;
                 credits += winnings;
                 console.log("Win on knuckles: " + winnings);
             }
-            else if (rings == 2) {
+            else if (medieval == 2) {
                 winnings = playerBet * 20;
                 credits += winnings;
                 console.log("Win on rings: " + winnings);
