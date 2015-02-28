@@ -4,9 +4,9 @@
 \\psf\Home\Documents\Semester6\COMP397-WebGameProg\Assignments\SlotMachineAssignment\SlotMachineAssignment\obj\Debug\SlotMachineAssignment.csprojResolveAssemblyReference.cache
 \\psf\Home\Documents\Semester6\COMP397-WebGameProg\Assignments\SlotMachineAssignment\SlotMachineAssignment\obj\Debug\COMP397-CreateJSBoilerPlate.dll
 \\psf\Home\Documents\Semester6\COMP397-WebGameProg\Assignments\SlotMachineAssignment\SlotMachineAssignment\obj\Debug\COMP397-CreateJSBoilerPlate.pdb
-E:\study\projects\SlotMachineAssignment-master\SlotMachineAssignment\bin\COMP397-CreateJSBoilerPlate.dll.config
-E:\study\projects\SlotMachineAssignment-master\SlotMachineAssignment\bin\COMP397-CreateJSBoilerPlate.dll
-E:\study\projects\SlotMachineAssignment-master\SlotMachineAssignment\bin\COMP397-CreateJSBoilerPlate.pdb
-E:\study\projects\SlotMachineAssignment-master\SlotMachineAssignment\obj\Debug\SlotMachineAssignment.csprojResolveAssemblyReference.cache
-E:\study\projects\SlotMachineAssignment-master\SlotMachineAssignment\obj\Debug\COMP397-CreateJSBoilerPlate.dll
-E:\study\projects\SlotMachineAssignment-master\SlotMachineAssignment\obj\Debug\COMP397-CreateJSBoilerPlate.pdb
+C:\Users\Ljp\Desktop\SlotMachineAssignment-master\SlotMachineAssignment\bin\COMP397-CreateJSBoilerPlate.dll.config
+C:\Users\Ljp\Desktop\SlotMachineAssignment-master\SlotMachineAssignment\bin\COMP397-CreateJSBoilerPlate.dll
+C:\Users\Ljp\Desktop\SlotMachineAssignment-master\SlotMachineAssignment\bin\COMP397-CreateJSBoilerPlate.pdb
+C:\Users\Ljp\Desktop\SlotMachineAssignment-master\SlotMachineAssignment\obj\Debug\SlotMachineAssignment.csprojResolveAssemblyReference.cache
+C:\Users\Ljp\Desktop\SlotMachineAssignment-master\SlotMachineAssignment\obj\Debug\COMP397-CreateJSBoilerPlate.dll
+C:\Users\Ljp\Desktop\SlotMachineAssignment-master\SlotMachineAssignment\obj\Debug\COMP397-CreateJSBoilerPlate.pdb
